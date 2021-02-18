@@ -5,3 +5,19 @@
 3  全局配置用户名和邮箱执行下面这两个代码
      git config --global user.name '你的用户名'  后面可以不写
      git config --global user.email  '你的邮箱'
+
+4 git add .    把所有文件全部添加到暂存区（git add -A）注意add后有空格  修改用 
+		git status 查看修改情况
+
+5 git commit -m "这一次提交做了什么事"  修改用
+
+6   git remote add origin 项目的线上地址      
+      把本地仓库跟线上关联
+      只有在第一次push之前要执行的步骤，否则就跳过第六步，直接执行第七步
+
+7 git push origin master  把本地的代码推送到线上。需要输入用户名和密码  修改用
+
+
+附加： 
+ git clone 线上地址   
+   把线上的项目克隆到本地
